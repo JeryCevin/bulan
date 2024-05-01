@@ -12,7 +12,6 @@
       <li class="active">Dashboard</li>
     </ol>
   </section>
-
   <section class="content">
     <div class="row">
       <section class="col-lg-6 col-lg-offset-3">       

@@ -1,7 +1,5 @@
 <?php include 'header.php'; ?>
-
 <div class="content-wrapper">
-
   <section class="content-header">
     <h1>
       Transaksi
@@ -345,6 +343,5 @@
       </section>
     </div>
   </section>
+                <?php include 'footer.php';?>
 
-</div>
-<?php include 'footer.php'; ?>

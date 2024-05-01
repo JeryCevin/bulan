@@ -29,6 +29,7 @@
   }
   ?>
 
+
 </head>
 <body class="hold-transition skin-yellow sidebar-mini">
 
@@ -82,7 +83,7 @@
             </a>
           </li>
           <li>
-            <a href="transaksi.php">
+            <a href="piutang.php">
               <i class="fa fa-hand-paper-o"></i> <span>PIUTANG</span>
             </a>
           </li>
@@ -95,14 +96,13 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
             </a>
-            <ul class="treeview-menu" style="display: none;">
-              <li><a href="hutang.php"><i class="fa fa-circle-o"></i> Stok Barang</a></li>
-              <li><a href="hutang.php"><i class="fa fa-circle-o"></i> Barang Masuk/Keluar</a></li>
-              <li><a href="hutang.php"><i class="fa fa-circle-o"></i> Dokumen FPPB</a></li>
-              <li><a href="hutang.php"><i class="fa fa-circle-o"></i> Dokumen FPPP</a></li>
+            <ul class="treeview-menu">
+              <li><a href="stok_barang.php"><i class="fa fa-circle-o"></i> Stok Barang</a></li>
+              <li><a href="barang_masuk_keluar.php"><i class="fa fa-circle-o"></i> Barang Masuk/Keluar</a></li>
+              <li><a href="dokumen_fppb.php"><i class="fa fa-circle-o"></i> Dokumen FPPB</a></li>
+              <li><a href="dokumen_fppp.php"><i class="fa fa-circle-o"></i> Dokumen FPPP</a></li>
             </ul>
           </li>
-
           <li class="treeview">
             <a href="#">
               <i class="fa fa-users"></i>
@@ -115,12 +115,6 @@
               <li><a href="user.php"><i class="fa fa-circle-o"></i> Data Pengguna</a></li>
               <li><a href="user_tambah.php"><i class="fa fa-circle-o"></i> Tambah Pengguna</a></li>
             </ul>
-          </li>
-
-          <li>
-            <a href="laporan.php">
-              <i class="fa fa-file"></i> <span>LAPORAN</span>
-            </a>
           </li>
         </ul>
       </section>

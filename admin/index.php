@@ -23,10 +23,9 @@
               $total_rows = $row['total'];
             ?>
             <p>Total Barang</p>
-            <h3 style="font-weight: bolder"><?php echo $total_rows; ?></h3>
-          </div>
-          <div class="icon">
-            <i class="ion ion-stats-bars"></i>
+            <center>
+              <h3 style="font-weight: bolder"><?php echo $total_rows; ?></h3>
+            </center>
           </div>
           <a href="gudang.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
         </div>
@@ -43,10 +42,10 @@
               $total_barisUsers = $barisUsers['total'];
             ?>
             <p>Total Users</p>
-            <h3 style="font-weight: bolder"><?php echo $total_barisUsers; ?></h3>
-          </div>
-          <div class="icon">
-            <i class="ion ion-stats-bars"></i>
+            <center>
+              <h3 style="font-weight: bolder"><?php echo $total_barisUsers; ?></h3>
+            </center>
+            
           </div>
           <a href="gudang.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
         </div>
@@ -63,10 +62,10 @@
               $total_barisUsers = $barisUsers['total'];
             ?>
             <p>Total Piutang</p>
-            <h3 style="font-weight: bolder"><?php echo $total_rows; ?></h3>
-          </div>
-          <div class="icon">
-            <i class="ion ion-stats-bars"></i>
+            <center>
+              <h3 style="font-weight: bolder"><?php echo $total_rows; ?></h3>
+            </center>
+            
           </div>
           <a href="gudang.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
         </div>
@@ -83,10 +82,10 @@
               $total_barisPelanggan = $barisPelanggan['total'];
             ?>
             <p>Total Pelanggan</p>
-            <h3 style="font-weight: bolder"><?php echo $total_barisPelanggan; ?></h3>
-          </div>
-          <div class="icon">
-            <i class="ion ion-stats-bars"></i>
+            <center>
+              <h3 style="font-weight: bolder"><?php echo $total_barisPelanggan; ?></h3>
+            </center>
+            
           </div>
           <a href="gudang.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
         </div>
